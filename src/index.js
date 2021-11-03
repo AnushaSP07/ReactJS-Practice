@@ -1,6 +1,15 @@
-import React from 'react';
-import ReactDom from 'react-dom';
+import React, {Component} from "react";
+import ReactDOM from "react-dom";
+import "./assets/style.css";
 
-//checking
-const element = <h1>Hello World!!</h1>;
-ReactDom.render(element, document.getElementById("root"));
+class ReactJSPractice extends Component{
+    render(){
+        return(
+            <div className="container">
+                <div className="title">QuizBee</div>
+            </div>
+        );
+    }
+}
+
+ReactDOM.render(<ReactJSPractice/>, document.getElementById("root") );
