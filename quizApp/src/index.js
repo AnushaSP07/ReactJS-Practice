@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import quizService from "./quizService";
 import "./assets/style.css";
 
-
 class ReactJSPractice extends Component{
     state ={
         questionBank : []
