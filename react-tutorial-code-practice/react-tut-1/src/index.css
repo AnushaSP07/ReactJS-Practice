@@ -46,3 +46,12 @@ main {
   align-items: center;
   overflow-y: auto;
 }
+
+footer {
+  width: 100%;
+  padding: 0.25em;
+  background-color: mediumaquamarine;
+  color: aliceblue;
+  display: grid;
+  place-content: center;
+}
